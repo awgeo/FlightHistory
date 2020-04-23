@@ -1,7 +1,11 @@
 # FlightHistory
-Seven years of flight data are provided for a Virgin Atlantic crew member, with detailed scheduling information for 700 flights worldwide. Data spanning Oct 2012 - Oct 2019 are provided in a series of Excel files ("Historical Crew Data"). More recent flight data (up to end-March 2020) can - with some effort - be parsed from an an iCalendar (.iCal) format. This combined data set is then merged with additional geographical data sets, including lat/long locations of airports. 
+Seven years of flight data are provided for a Virgin Atlantic crew member, with detailed scheduling information for 700 flights worldwide. Data spanning Oct 2012 - Oct 2019 are provided in a series of Excel files ("Historical Crew Data"). More recent flight data (up to end-March 2020) is parsed from an iCalendar (.iCal) file. The data sets are combined along with additional geographical information, including lat/long locations of airports and distance between origin/destination.
 
-The final data set (flight_history_combined.xlsx) has been plotted in Tableau, see: https://public.tableau.com/profile/alan.wilson7526#!/
+The final time-series data set (flight_history_combined.xlsx) allows us to filter and categorise data on aircraft type, airport code, city, country, distance, flight time, shifts/blocks and roster periods. 
+
+Some plots published on Tableau Public: https://public.tableau.com/profile/alan.wilson7526#!/
+
+Please feel free to re-use the data set for training.
 
 
 
