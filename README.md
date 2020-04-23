@@ -3,9 +3,12 @@ Seven years of flight data are provided for a Virgin Atlantic crew member, with 
 
 The final time-series data set (flight_history_combined.xlsx) allows us to filter and categorise data on aircraft type, airport code, city, country, distance, flight time, shifts/blocks and roster periods. 
 
-Some plots published on Tableau Public: https://public.tableau.com/profile/alan.wilson7526#!/
+Interactive plots published on Tableau Public: https://public.tableau.com/profile/alan.wilson7526#!/
 
-Please feel free to re-use the data set for training.
+Please feel free to re-use the data set and workflow for training.
 
+Examples:
 
+![](tableau_plots/Example_flights-per-aircraft-type.JPG)
 
+![](tableau_plots/Example_combined-data-set.JPG)
