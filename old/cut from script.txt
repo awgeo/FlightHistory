@@ -1,0 +1,45 @@
+for index, row in df_core_photo.iterrows():
+    if row['Unit'] == 'ft':
+        df_core_photo.loc[index, 'Top depth'] = int(row['Top depth'] * 0.3048)
+    else:
+        df_core_photo.loc[index, 'Top depth'] = row['Top depth']
+
+
+
+# Calculate overlap by interating over DataFrame rows as (index, Series) pairs
+# Zero overlap for first Core Photo in each well, and no negative overlaps (representing gaps)
+
+for index, row in df_core_photo[1:].iterrows():
+    
+    current_row = df_core_photo.loc[index]
+    last_row = df_core_photo.iloc[df_core_photo.index.get_loc(index) - 1]
+    
+    # Zero overlap for first test in each wellbore
+    if current_row['Wellbore'] != last_row['Wellbore']:
+        df_core_photo.loc[index, 'Overlap'] = 0
+    
+    else:
+        # Difference between base of last row and top of current row
+        if current_row['Top depth'] < last_row['Base depth']:
+            df_core_photo.loc[index, 'Overlap'] = last_row['Base depth'] - current_row['Top depth']
+        else:
+            df_core_photo.loc[index, 'Overlap'] = 0 
+
+df_core_photo.round(1).head()
+
+
+https://api.mapbox.com/styles/v1/planemad/civplrksu00672kpgk5hf5fzp.html?title=true&access_token=pk.eyJ1IjoicGxhbmVtYWQiLCJhIjoiemdYSVVLRSJ9.g3lbg_eN0kztmsfIPxa9MQ#7.39/53.746/-2.813
+
+
+# df_hcd_airports = df_hcd.merge(df_airports[['Latitude', 'Longitude']], how='left', left_on='Origin', right_on='IATA', suffixes=(False, False))
+# df_hcd_airports
+
+#df = pd.merge(df,df2[['Key_Column','Target_Column']],on='Key_Column', how='left')
+
+
+
+
+df_hcd_airports  = pd.merge(df_hcd, df_airports[['IATA', 'Latitude', 'Longitude']], how='left', left_on='Origin', right_on='IATA')
+df_hcd_airports  = pd.merge(df_hcd_airports, df_airports[['IATA', 'Latitude', 'Longitude']], how='left', left_on='Destination', right_on='IATA', suffixes=('_Origin', '_Destination'))
+
+df_hcd_airports.head()
