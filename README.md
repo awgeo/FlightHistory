@@ -5,8 +5,6 @@ The final time-series data set (flight_history_combined.xlsx) allows us to filte
 
 Interactive plots published on Tableau Public: https://public.tableau.com/profile/alan.wilson7526#!/
 
-Please feel free to re-use the data set and workflow for training.
-
 Examples:
 
 ![](tableau_plots/Example_flights-per-aircraft-type.JPG)
