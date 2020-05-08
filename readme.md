@@ -10,7 +10,7 @@ The final time-series data set (output to 'flight_history_combined.xlsx') allows
 ### Data vizualisation
 Interactive plots published on Tableau Public: https://public.tableau.com/profile/alan.wilson7526#!/
 
-Examples:
+Example - number of flights per aircraft type:
 
 ![](tableau_plots/Example_flights-per-aircraft-type.JPG)
 
