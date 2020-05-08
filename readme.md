@@ -1,4 +1,4 @@
-# FlightHistory - cabin crew flight history
+# FlightHistory - cabin crew roster
 
 Looking for a good data set to play with in Tableau, I got a hold of my partner's flight history as Cabin Crew for Virgin Atlantic. It's a fascinating data set, documenting 700 international flights over seven years (on which I've bagged myself a few spare seats!). 
 
