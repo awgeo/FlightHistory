@@ -1,6 +1,6 @@
 # FlightHistory
 
-Looking for a good data set to play with in Tableau, I got a hold of my partner's flight history as Cabin Crew for Virgin Atlantic. It's a fascinating data set with details of 700 international flights over seven years.
+Looking for a good data set to play with in Tableau, I got a hold of my partner's flight history as Cabin Crew for Virgin Atlantic. It's a fascinating data set, documenting 700 international flights over seven years (over which I've bagged myself a few spare seats!).
 
 ### Data preparation
 The data is provided in two parts. First, data spanning Oct 2012 - Oct 2019 are provided in a series of Excel files ("Historical Crew Data"). Second, more recent flight data (up to end-March 2020) is parsed from an iCalendar (.iCal) file. The data sets are combined along with additional geographical information, including airport lat/long, and distances calculated between origin/destination airports.
