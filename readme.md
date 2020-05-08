@@ -5,7 +5,7 @@ Looking for a good data set to play with in Tableau, I got a hold of my partner'
 ### Data preparation
 These Jupyter Notebooks describe the data preparation workflow using with Python and Pandas before visualisation.
 
-The data is provided in two parts. First, data spanning Oct 2012 - Oct 2019 are provided in a series of Excel files ("Historical Crew Data"). Second, more recent but less detailed flight data (up to end-March 2020) is parsed from an iCalendar (.iCal) file. The data are combined and reconciled with Python/Pandas, along with additional geographical information (including airport lat/long) and distances calculated between origin/destination airports.
+The data is provided in two parts. First, data spanning Oct 2012 - Oct 2019 are provided in a series of Excel files ("Historical Crew Data"). Second, more recent but less detailed flight data (up to end-March 2020) is parsed from an iCalendar (.iCal) file. The data are combined and reconciled, along with additional geographical information (including airport lat/long) and distances calculated between origin/destination airports.
 
 The final time-series data (output to 'flight_history_combined.xlsx') allows us to filter and categorise data on aircraft type, airport code, city, country, distance, flight time, shifts/blocks and roster periods. 
 
