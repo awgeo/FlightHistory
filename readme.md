@@ -10,7 +10,7 @@ Second, more recent but less detailed flight data (up to end-March 2020) is pars
 The final time-series data (output to 'flight_history_combined.xlsx') allows us to filter and categorise data on aircraft type, airport code, city, country, distance, flight time, shifts/blocks and roster periods. 
 
 ### Data vizualisation
-Interactive plots published on Tableau Public: https://public.tableau.com/profile/alan.wilson7526#!/
+Full set of interactive plots published on Tableau Public: https://public.tableau.com/profile/alan.wilson7526#!/
 
 Example - flights per destination:
 
