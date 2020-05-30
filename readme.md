@@ -9,6 +9,8 @@ Second, more recent but less detailed flight data (up to end-March 2020) is pars
 
 The final time-series data (output to 'flight_history_combined.xlsx') allows us to filter and categorise data on aircraft type, airport code, city, country, distance, flight time, shifts/blocks and roster periods. 
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/awgeo/FlightHistory/master)
+
 ### Data vizualisation
 Full set of interactive plots published on Tableau Public: https://public.tableau.com/profile/alan.wilson7526#!/
 
@@ -23,5 +25,3 @@ Example - number of flights per aircraft type:
 Preview of final data set:
 
 ![](tableau_plots/Example_combined-data-set.JPG)
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/awgeo/FlightHistory/master)
