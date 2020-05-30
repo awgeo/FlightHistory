@@ -96,7 +96,6 @@ dependencies:
     - protobuf==3.11.3
     - pydeck==0.3.0
     - pyparsing==2.4.7
-    - pywin32==227
     - pyzmq==19.0.0
     - requests==2.23.0
     - requests-testadapter==0.3.0
