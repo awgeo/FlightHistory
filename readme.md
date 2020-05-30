@@ -23,3 +23,5 @@ Example - number of flights per aircraft type:
 Preview of final data set:
 
 ![](tableau_plots/Example_combined-data-set.JPG)
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/awgeo/FlightHistory/master)
